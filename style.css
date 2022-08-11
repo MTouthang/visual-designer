@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+   font-family: Roboto;
+   background-color: #111;
+   color: #fff;
+
+}
+
+/*** image resize ****/
+.n-item > img {
+    width: 10px;  
+}
+/***** buttons *****/
+button {
+    background-color: #C91B28;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/***** nav section ****/
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+.n-logo {
+    padding-right: 30%;
+}
+.n-logo > img {
+    padding-top: 20px;
+
+}
+.n-items {
+    display: flex;
+    justify-content: space-between;
+
+}
+.n-item {
+    padding: 30px;
+    list-style-type: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+}
+.n-item:nth-child(2) {
+   margin-top: 3px;
+}
+.n-item:nth-child(3) {
+    margin-top: 3px;
+ }
+ .n-item:nth-child(4) {
+    margin-top: 3px;
+ }
+ .n-item img {
+    padding-left: 3px;
+    margin: auto;
+    text-align: center;
+ }
+
+/****** intro section ******/
+#intro {
+    margin: 0 6% 0 6%;
+    display: flex;
+    justify-content: space-between;
+}
+.i-profile-image {
+  
+    width: 550px;
+}
+.i-profile-image img {
+    width: 550px;
+}
+
+.i-typo {
+    
+    margin: auto;
+}
+.i-typo h3 {
+    color: #C91B28;
+}
+.i-typo h1 {
+    font-size: 4rem;
+    padding-bottom: 20px;
+}
+.i-typo p {
+    font-weight: lighter;
+    padding-bottom: 30px;
+}
+
+
+/****** skills section *******/
+.s-bg {
+    z-index: -1;
+    position: absolute;
+    height: 108%;
+    width: 50%;
+    background-color: #181818;
+}
+.s-item-more img {
+    width: 10px;
+}
+
+#skills {
+    height: 108vh;
+    z-index: 1;
+}
+.s-items {
+    display: flex;
+    justify-content: space-around;
+    margin: 0% 17% 2% 17%;
+    padding-top: 6%;
+}
+.s-item > img {
+    width: 60px;
+    padding-bottom: 10px;
+  
+}
+.s-item h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.s-item p {
+    padding-bottom: 10px;
+}
+.s-item {
+    
+    background-color: #1E1E1E;
+    width: 170px;
+    margin: auto;
+    padding: 50px;
+    height:200px;
+}
+.s-item-more{
+    display: flex;
+}
+.s-item-more h3 {
+    padding-right: 10px;
+    color: #C91B28;
+}
+.s-active {
+    background-color: #c91b28;
+}
+.s-active > img {
+    width: 42px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+.s-m-active h3{
+    color: #fff;
+}
+
+.s-items-two {
+    margin: 6% 17% 5% 17%;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    
+}
+.s-i-t-two {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.s-i-t-one h2 {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 5rem;
+    color: #C91B28;
+}
+.s-i-t-one h3 {
+    font-size: 1.5rem;
+    padding-left: 30px;
+    color: #fff;
+}
+.s-i-t-two {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 590px;
+}
+.s-i-t-item {
+    width: 280px;
+    margin-bottom: 15px;
+    padding: 10px 0;
+    background-color: #1E1E1E;
+}
+.s-i-t-item > h2{
+    font-size: 2rem;
+    color: #C91B28;
+}
+
+/**** Features section ******/
+.f-c-item > img {
+    width: 390px;
+}
+#featured {
+    margin: 5% 17% 3% 17%;
+}
+
+.i-f-heading {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.i-f-h-l > h1 {
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+.f-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.f-c-item {
+    height: 219px;
+    overflow: hidden;
+    margin: 30px 20px;
+   
+}
+.img-container {
+    border: 1px solid #1E1E1E;
+    background-color: #1E1E1E;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+
+/********** Contact section ********/
+#contact {
+    margin: 6% 17%;
+    display: flex;
+    background-color: #1E1E1E;
+    justify-content: start;
+    padding: 50px;
+}
+#contact h2{
+    font-size: 3rem;
+    padding-bottom: 10px;
+}
+#contact p {
+    font-size: 1rem;
+}
+
+#contact > button {
+    margin: auto;
+}
+
+/***** footer *****/
+
+.f-one ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin: 3% 35%;
+}
+.s-link {
+    width: 30px;
+}
+.s-link-fb {
+    width: 20px;
+}
+
+.f-two {
+    display: flex;
+    background-color: #1E1E1E;
+    justify-content: start;
+    padding: 3% 17%;
+}
+.f-two ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: end;
+    padding-left: 20%;
+    
+}
+.f-two ul li {
+    padding: 2px 30px;
+    margin:auto
+}
