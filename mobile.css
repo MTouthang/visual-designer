@@ -1,0 +1,54 @@
+.n-items {
+    display: none;
+}
+.toggle {
+    display: block;
+}
+
+#intro {
+    flex-direction: column;
+}
+.i-typo {
+    text-align: center;
+}
+.i-profile-image {
+    width: 480px;
+  
+}
+#skills {
+    height: 121vh;
+   
+}
+.s-item {
+    margin-top: 5px;
+}
+.s-bg {
+    height: 121%;
+    width: 60%;
+}
+.s-i-t-one {
+   padding-top: 25%;
+  
+}
+.s-i-t-item {
+    width: 200px;
+  
+}
+
+#contact {
+   flex-direction: column;
+   margin-top: 10px;
+   margin: 0;
+   margin-left: 16%;
+}
+
+.c-body {
+    padding-bottom: 10px;
+}
+.f-one ul li {
+    padding-left: 8px;
+}
+
+.f-two {
+    width: 100%;
+}

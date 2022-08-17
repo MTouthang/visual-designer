@@ -4,6 +4,10 @@
     margin: 0;
     padding: 0;
 }
+.toggle {
+    width: 10px;
+    display: none;
+}
 
 body {
    font-family: Roboto;
@@ -74,7 +78,6 @@ nav {
     justify-content: space-between;
 }
 .i-profile-image {
-  
     width: 550px;
 }
 .i-profile-image img {
@@ -116,6 +119,7 @@ nav {
 }
 .s-items {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
     margin: 0% 17% 2% 17%;
     padding-top: 6%;
@@ -133,7 +137,6 @@ nav {
     padding-bottom: 10px;
 }
 .s-item {
-    
     background-color: #1E1E1E;
     width: 170px;
     margin: auto;

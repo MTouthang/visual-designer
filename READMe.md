@@ -1,4 +1,4 @@
-### Monstero landing page
+### Visual Designer landing page
 ----
 A simple landing page for Monstero application website
 
