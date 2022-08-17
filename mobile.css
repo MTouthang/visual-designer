@@ -34,12 +34,16 @@
     width: 200px;
   
 }
+.f-container {
+   
+    justify-content: space-center;
+}
 
 #contact {
    flex-direction: column;
    margin-top: 10px;
-   margin: 0;
-   margin-left: 16%;
+
+  
 }
 
 .c-body {
@@ -47,8 +51,4 @@
 }
 .f-one ul li {
     padding-left: 8px;
-}
-
-.f-two {
-    width: 100%;
 }
