@@ -23,15 +23,14 @@
   
 }
 #skills {
-    height: 185vh;
+    height: 121vh;
     padding-bottom: 6%;
-   
 }
 .s-item {
     margin-top: 5px;
 }
 .s-bg {
-    height: 185vh;
+    height: 121vh;
     width: 60%;
 }
 .s-i-t-one {
@@ -40,7 +39,7 @@
 }
 .s-i-t-item {
     width: 200px;
-  
+    
 }
 .f-container {
    
