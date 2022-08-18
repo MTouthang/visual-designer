@@ -1,8 +1,22 @@
+nav {
+    position: relative;
+}
 .n-items {
     display: none;
 }
+.menu:focus .n-items {
+    display: block;
+    position: absolute;
+    background-color: #181818;
+    color: #fff;
+    top: 65%;
+    right: 8%;
+}
+
 .toggle {
     display: block;
+    cursor: pointer;
+   margin-top: 25px;
 }
 
 #intro {
