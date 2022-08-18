@@ -19,5 +19,5 @@ A simple landing page for Monstero application website
 ### ScreenShot
 ![Project screenshot](./asset//thumbnail.png)
 
-
+**Mobile Responsive**
 *--------------------------------------------- Feel free to fork and play around ----------------------------------------*
