@@ -7,23 +7,31 @@
 
 #intro {
     flex-direction: column;
+    padding-bottom: 6%;
 }
 .i-typo {
     text-align: center;
 }
 .i-profile-image {
-    width: 480px;
+    width: 420px;
+  
+  
+}
+.i-profile-image > img {
+  
+    width: 420px;
   
 }
 #skills {
-    height: 121vh;
+    height: 122vh;
+    padding-bottom: 6%;
    
 }
 .s-item {
     margin-top: 5px;
 }
 .s-bg {
-    height: 121%;
+    height: 122%;
     width: 60%;
 }
 .s-i-t-one {
@@ -38,6 +46,11 @@
    
     justify-content: space-center;
 }
+#featured {
+    margin: 0 6%;
+    padding-bottom: 6%;
+}
+
 
 #contact {
    flex-direction: column;
@@ -51,4 +64,12 @@
 }
 .f-one ul li {
     padding-left: 8px;
+}
+
+.f-two {
+    justify-content: space-around;
+}
+.f-two ul {
+    padding-left: 20px; 
+    
 }
